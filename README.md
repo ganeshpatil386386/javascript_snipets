@@ -33,9 +33,19 @@
   
   ### Arrow Functions
   ```js
+  // with argument
+  
   const addtwonum = (a,b) => {
     return a+b;
 }
 
 console.log(addtwonum(4,5)); //9
+
+// without argument
+
+const two = (a) => {
+  return ++a ;
+}
+
+console.log(two(5));
 ```
