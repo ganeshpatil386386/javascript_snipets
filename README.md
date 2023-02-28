@@ -49,3 +49,14 @@ const two = (a) => {
 
 console.log(two(5));
 ```
+
+### Template Literals
+
+```js 
+const person = {
+    name: 'Ganesh',
+    age:21
+}
+
+console.log(`My name is  ${person.name} and my age is ${person.age}`) //My name is  Ganesh and my age is 21
+```
